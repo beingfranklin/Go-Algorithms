@@ -106,3 +106,6 @@ You need to respect some spec in order to document using `godoc`. More informati
 
 ## Learn more
 This [interactive tutorial](https://tour.golang.org/) will let you learn more about Go.
+
+## This is a Copied Documentation
+This ReadMe file was copied from from [Sourabh Bajaj](https://github.com/sb2nov/mac-setup/edit/master/Go/).
