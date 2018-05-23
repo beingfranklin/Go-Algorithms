@@ -13,6 +13,17 @@ Go has a unique approach of managing code where you have a single workspace for 
 
 First, you'll need to tell Go the location of your workspace. We'll do this by adding some environment variables in your shell config file (usually `.bash_profile`, `.bashrc` or `.zshrc`).
 
+Or I used this while my installation
+
+
+```sh
+export GOROOT=/usr/local/go
+export GOPATH=YOUR FOLDER LOCATION (run command *pwd* + the folder name)
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+```
+OR 
+
 ```sh
 export GOPATH=$HOME/go
 export GOROOT=/usr/local/opt/go/libexec
