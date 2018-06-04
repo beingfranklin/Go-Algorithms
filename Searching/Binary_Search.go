@@ -7,7 +7,7 @@ func main() {
 
 	arr := [10]int{1, 5, 100, 0, -100, 15, 4, 102, 30, 1000}
 	fmt.Println(arr)
-
+	fmt.Println("And We are searching for 0 here")
 	// Sort the numbers
 	tmp := 0
 	for i := 0; i < len(arr); i++ {
