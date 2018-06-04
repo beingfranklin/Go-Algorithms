@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func Merge(a []int, b []int) []int {
-	var arr = make([]int, len(a)+len(b))
+func merge(a []int, b []int) []int {
+	var r = make([]int, len(a)+len(b))
 	var i = 0
 	var j = 0
 
