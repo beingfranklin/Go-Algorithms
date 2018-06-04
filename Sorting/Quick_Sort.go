@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"math/rand"
-)
+import "fmt"
+import "math/rand"
 
 func quick_sort(arr []int) []int {
 
