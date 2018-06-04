@@ -30,9 +30,6 @@ func main() {
 		return
 	}
 
-	// Find the number by looking at the center of the array, choosing
-	// the left or right side depending on the value and then continue
-	// to halve until the result has been found.
 	for left <= right {
 		mid := (left + right) / 2
 
