@@ -1,14 +1,11 @@
 package main
 
-// Source https://github.com/0xAX/go-algorithms/blob/master/sorting/heap_sort.go
 import "fmt"
 
 func sift(arr []int, i int, arrLen int) []int {
 	done := false
-
 	tmp := 0
 	maxChild := 0
-
 	for (i*2+1 < arrLen) && (!done) {
 		if i*2+1 == arrLen-1 {
 			maxChild = i*2 + 1
